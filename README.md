@@ -4,8 +4,9 @@ This repository contains the build files for installing [Symform](http://www.sym
 
 Usage
 -----
-docker run -d \
-  -v <your_config_directory>:/var/lib/symform \
-  -v <your_contrib_directory>:/contrib \
-  -p 59234:59234 \
-  flyte/symform
+
+    docker run -d \
+      -v <your_config_directory>:/var/lib/symform \
+      -v <your_contrib_directory>:/contrib \
+      -p 59234:59234 \
+      flyte/symform
