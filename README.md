@@ -15,7 +15,7 @@ Once you've got the Symform web interface running on http://localhost:59234 you 
 
     <contribution enabled="True" fragmentStorePath="/contrib/SymformContribution" port="53068" manualPort="False" localAddress="" registrationAddress="" enableBackgroundTasks="True" concurrentMoves="2" logicalVolumeSize="0" ignoreThrottle="False" enablePortForwarding="True" testFragmentConfirmAction="NotSpecified" enableUtp="True">
 
-In this case, port 53068 has been chosen. You may now stop/delete this docker image and run another one using the following command in order to enable contribution:
+In this case, port 53068 has been chosen. You may now stop/delete this docker container and run another one using the following command in order to enable contribution:
 
     docker run -d \
       -v <your_config_directory>:/var/lib/symform \
